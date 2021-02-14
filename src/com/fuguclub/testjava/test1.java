@@ -8,7 +8,7 @@ public class test1 {
         String[] message = {"bon matin.", "bonsoir"};
 
         if(day && gentil){
-            System.out.println("Cette personne est gentille alors il vous souhaite une bonne nuit.");
+            System.out.println("Cette personne est gentille alors il vous souhaite une bonne journée.");
         } else if(!day && gentil){
             System.out.println("Cette personne est gentille alors il vous souhaite une bonne soirée.");
         } else {
