@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class systeme {
     public static void main(String[] args) {
 
-        double[] equation1 = {3, -4};
-        double[] equation2 = {-2, 3};
+        double[] equation1 = {0, 0};
+        double[] equation2 = {0, 0};
 
         Scanner equation10Scanner = new Scanner(System.in);
         System.out.println("Entrez le x de la première équation \n (y = Ax + b) Entrez le A.");
@@ -21,7 +21,7 @@ public class systeme {
         equation2[0] = equation20Scanner.nextDouble();
 
         Scanner equation21Scanner = new Scanner(System.in);
-        System.out.println("Entrez le nombre de la deuxième équation \n (y = Ax + b) Entrez le A.");
+        System.out.println("Entrez le nombre de la deuxième équation \n (y = ax + B) Entrez le B.");
         equation2[1] = equation21Scanner.nextDouble();
 
         System.out.println(equation2[1] + "-" + equation1[1] + "/" + equation1[0]+ "- " + equation2[0]);
