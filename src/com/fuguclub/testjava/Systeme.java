@@ -2,7 +2,7 @@ package com.fuguclub.testjava;
 
 import java.util.Scanner;
 
-public class systeme {
+public class Systeme {
     public static void main(String[] args) {
 
         double[] equation1 = {0, 0};
